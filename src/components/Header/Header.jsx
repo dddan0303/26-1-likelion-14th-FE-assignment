@@ -1,12 +1,14 @@
-import SearchBar from "../common/SearchBar";
-import HamburgerMenu from "../common/HamburgerMenu";
-
 function Header() {
   return (
-    <header>
-      <h1>Movie App</h1>
-      <SearchBar />
-      <HamburgerMenu />
+    <header className="header">
+      <h1>KWU LIKELION THEATER</h1>
+
+      <div className="search-box">
+        <input type="text" placeholder="검색어를 입력하세요" />
+        <span>⌕</span>
+      </div>
+
+      <button className="menu-button">☰</button>
     </header>
   );
 }

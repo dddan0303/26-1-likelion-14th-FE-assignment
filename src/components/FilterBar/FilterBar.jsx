@@ -1,10 +1,8 @@
-import Dropdown from "../common/Dropdown";
-
 function FilterBar() {
   return (
-    <div>
-      <Dropdown />
-      <Dropdown />
+    <div className="filter-bar">
+      <button>장르 V</button>
+      <button>정렬 V</button>
     </div>
   );
 }

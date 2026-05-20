@@ -1,20 +1,52 @@
-const movieData = [
+const movies = [
   {
     id: 1,
-    title: "Movie 1",
-    rating: 4.5,
-    description: "This is movie 1",
-    releaseDate: "2026-04-01",
-    image: "poster1.jpg",
+    title: "Movie Name",
+    rating: 7.4999,
+    description:
+      "영화 설명을 주절주절 이 영화 재미있어요. 근데 마지막에 주인공이 어쩌고저쩌고해서 결말...",
+    date: "2026-03-03",
   },
   {
     id: 2,
-    title: "Movie 2",
-    rating: 4.2,
-    description: "This is movie 2",
-    releaseDate: "2026-04-02",
-    image: "poster2.jpg",
+    title: "Movie Name",
+    rating: 7.4999,
+    description:
+      "영화 설명을 주절주절 이 영화 재미있어요. 근데 마지막에 주인공이 어쩌고저쩌고해서 결말...",
+    date: "2026-03-03",
+  },
+  {
+    id: 3,
+    title: "Movie Name",
+    rating: 7.4999,
+    description:
+      "영화 설명을 주절주절 이 영화 재미있어요. 근데 마지막에 주인공이 어쩌고저쩌고해서 결말...",
+    date: "2026-03-03",
+  },
+  {
+    id: 4,
+    title: "Movie Name",
+    rating: 7.4999,
+    description:
+      "영화 설명을 주절주절 이 영화 재미있어요. 근데 마지막에 주인공이 어쩌고저쩌고해서 결말...",
+    date: "2026-03-03",
+  },
+  {
+    id: 5,
+    title: "Movie Name",
+    rating: 7.4999,
+    description:
+      "영화 설명을 주절주절 이 영화 재미있어요. 근데 마지막에 주인공이 어쩌고저쩌고해서 결말...",
+    date: "2026-03-03",
+  },
+  {
+    id: 6,
+    title: "Movie Name",
+    rating: 7.4999,
+    description:
+      "영화 설명을 주절주절 이 영화 재미있어요. 근데 마지막에 주인공이 어쩌고저쩌고해서 결말...",
+    date: "2026-03-03",
   },
 ];
 
-export default movieData;
+export default movies;

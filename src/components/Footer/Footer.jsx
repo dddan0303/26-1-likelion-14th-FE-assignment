@@ -1,5 +1,10 @@
 function Footer() {
-  return <footer>Footer</footer>;
+  return (
+    <footer className="footer">
+      <span>LIKELION X KWU</span>
+      <span>14TH FRONTEND</span>
+    </footer>
+  );
 }
 
 export default Footer;
